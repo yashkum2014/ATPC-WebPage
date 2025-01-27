@@ -12,7 +12,7 @@ body {
 }
 
 .first {
-    background-image: url("Images/amity.jpeg");
+    background-image: url("IMages/amity.jpeg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,6 +44,58 @@ nav button {
     position: relative;
     z-index: 10;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/* Heading styling */
+.heading {
+    position: absolut;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:10px;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background: rgba(34, 34, 34, 0.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* QR image styling */
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/* Notification section styling */
+.notification {
+    margin-top: 10px;
+    padding: 1px;
+    background: #ffeb3b;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
 
 .separation {
     height: 7px;
