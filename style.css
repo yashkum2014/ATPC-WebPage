@@ -12,7 +12,7 @@ body {
 }
 
 .first {
-    background-image: url("IMages/amity.jpeg");
+    background-image: url("Images/amity.jpeg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
